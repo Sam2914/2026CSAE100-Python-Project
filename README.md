@@ -3,7 +3,7 @@
 A menu-driven command-line **Student Management System** developed in Python for the **Computational Thinking and Programming (2026CSAE100)** Collaborative Problem-Solving Project at Bennett University.
 
 ## Problem Statement & Objectives
-Managing student records manually is error-prone and inefficient. This project provides a lightweight, file-backed Python application to store, retrieve, update, and manage student academic records persistently using a local text file (`students.txt`).
+Managing student academic records manually is time-consuming and prone to errors. This project provides a lightweight, file-backed Python application to add, view, search, update, and delete student records persistently using a local text file (`students.txt`).
 
 ## Key Features
 - **Add Student:** Validates unique Student IDs and ensures marks fall strictly between `0` and `100`.
@@ -18,9 +18,14 @@ Managing student records manually is error-prone and inefficient. This project p
 - **Functions & Modular Design:** Separate functions for each CRUD operation and input validation
 - **Control Flow & Exception Handling:** `while` loops, conditionals, and `try-except` blocks (`FileNotFoundError`, `ValueError`)
 
+## Project Structure
+- `main.py` — Complete source code for the Student Management System
+- `Project Report Format.pdf` — Project documentation including problem statement, flowchart, source code, and sample outputs
+- `students.txt` — Auto-generated file storing student records persistently
+
 ## How to Run
 1. Ensure Python 3 is installed on your system.
 2. Clone or download this repository.
-3. Run the program from your terminal:
+3. Open a terminal in the project folder and run:
    ```bash
    python main.py
